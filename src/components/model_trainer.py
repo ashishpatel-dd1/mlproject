@@ -39,6 +39,10 @@ class ModelTrainer:
                 test_array[:,:-1],
                 test_array[:,-1]
             )
+            print("x_train.shape",x_train.shape,"\n--------------------------------------------")
+            print("x_test.shape",x_test.shape,"\n--------------------------------------------")
+            print("y_train.shape",y_train.shape,"\n--------------------------------------------")
+            print("y_test.shape",y_test.shape,"\n--------------------------------------------")
             
             
             models = {
